@@ -1,6 +1,6 @@
 const mysql2 = require('mysql2/promise');
 
-async function executar(sql){
+async function execute(sql){
     let con = await mysql2.createConnection({
         host: 'localhost',
         user: 'root' ,
@@ -14,5 +14,5 @@ async function executar(sql){
 }
 
 module.exports = {
-    executar
+    execute
 }
