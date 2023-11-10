@@ -13,3 +13,6 @@ VALUES ('ExpressJS', '20');
 
 INSERT INTO tb_disciplinas (nome, carga_horaria)
 VALUES ('Banco de Dados', '16');
+
+INSERT INTO tb_disciplina (nome, carga_horaria)
+VALUES ('NodeJS', '12');
