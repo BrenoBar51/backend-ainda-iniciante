@@ -1,5 +1,3 @@
-const { patch } = require("../../backend/routes/disciplinas");
-
 function remover(id){
     document.getElementById('excluir_id').innerHTML = id;
 }
