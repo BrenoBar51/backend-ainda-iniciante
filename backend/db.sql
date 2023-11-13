@@ -16,3 +16,8 @@ VALUES ('Banco de Dados', '16');
 
 INSERT INTO tb_disciplina (nome, carga_horaria)
 VALUES ('NodeJS', '12');
+
+--!Exemplo-->
+
+UPDATE tb_disciplinas 
+SET id=5 WHERE id=7;
